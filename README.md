@@ -28,6 +28,26 @@ The client’s hosting provider was permanently suspending the VPS, which contai
 - Managed Linux → Windows file transfer using WSL (Windows Subsystem for Linux)  
 - Ensured integrity of all backups before removing server-side copies
 
+### Result
+
+- Successfully recovered DesignCosmics.com website files (~700MB)
+- Secured database backup (~2.7GB) locally
+- Zero data loss before permanent VPS suspension
+- Backup ready for migration to a new hosting environment
+
+### Skills Demonstrated
+
+- Linux system administration & VPS management
+- Emergency data recovery & backup strategies
+- Secure file transfer between Linux and Windows systems
+- Problem-solving under pressure
+- Use of command-line tools: rsync, tar, SSH
+
+### Optional Next Steps (for future projects)
+
+- Restore backups to a new hosting provider (cPanel / CyberPanel / VPS)
+- Document repeatable emergency recovery procedures for faster execution
+- Expand the portfolio with multiple similar case studies showcasing expertise in VPS management, website recovery, and secure data migration
 
 ### Technical Execution
 
@@ -40,8 +60,3 @@ tar -czf /root/designcosmics_files_backup.tar.gz -C /home designcosmics.com
 
 # Download website archive safely to local system
 rsync -avzP root@VPS_IP:/root/designcosmics_files_backup.tar.gz ~/VPS_DesignCosmics/
-
-
-
-
-
