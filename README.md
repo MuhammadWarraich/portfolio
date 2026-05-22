@@ -1,148 +1,201 @@
-# Muhammad Azhar – Cloud & Systems Engineer
-VPS • Linux • Server Recovery • Backups
+# Muhammad Azhar  
+## Cloud & Systems Engineer
 
-
-## Emergency VPS Data Recovery & Website Backup
-
-**Client:** Confidential  
-**Environment:** Linux VPS (CyberPanel / SSH)  
-**Timeline:** Emergency recovery before permanent VPS suspension
-
-
-### Situation
-The client’s hosting provider was permanently suspending the VPS, which contained multiple websites and databases. Immediate action was required to secure critical data before the server was permanently suspended, to prevent irreversible loss.
-
-
-### Challenges
-- Limited time window before permanent suspension  
-- Large backup files (~16GB) making full download impractical  
-- Permission and filesystem restrictions on root directories  
-- Active database and website files that could change during backup  
-- Need to extract and transfer a **specific critical website** (DesignCosmics.com) safely
-
-
-### Solution
-- Verified and secured **database backup** first  
-- Created a **website-specific archive** for DesignCosmics.com instead of downloading the entire 16GB folder  
-- Used **rsync** and **tar** for reliable incremental file transfer  
-- Managed Linux → Windows file transfer using WSL (Windows Subsystem for Linux)  
-- Ensured integrity of all backups before removing server-side copies
-
-### Result
-
-- Successfully recovered DesignCosmics.com website files (~700MB)
-- Secured database backup (~2.7GB) locally
-- Zero data loss before permanent VPS suspension
-- Backup ready for migration to a new hosting environment
-
-### Skills Demonstrated
-
-- Linux system administration & VPS management
-- Emergency data recovery & backup strategies
-- Secure file transfer between Linux and Windows systems
-- Problem-solving under pressure
-- Use of command-line tools: rsync, tar, SSH
-
-### Optional Next Steps (for future projects)
-
-- Restore backups to a new hosting provider (cPanel / CyberPanel / VPS)
-- Document repeatable emergency recovery procedures for faster execution
-- Expand the portfolio with multiple similar case studies showcasing expertise in VPS management, website recovery, and secure data migration
-
-### Technical Execution
-
-```bash
-# Secure database transfer from VPS to local system
-rsync -avzP root@VPS_IP:/root/all_databases_backup.sql ~/VPS_Backups/
-
-# Create a website-specific archive to avoid full backup
-tar -czf /root/designcosmics_files_backup.tar.gz -C /home designcosmics.com
-
-# Download website archive safely to local system
-rsync -avzP root@VPS_IP:/root/designcosmics_files_backup.tar.gz ~/VPS_DesignCosmics/
+Linux • VPS • cPanel/WHM • WordPress Hosting • Azure • Infrastructure Support
 
 ---
 
-# TestLink Server Performance Optimization
+# About Me
 
-Linux server performance investigation and cleanup planning for hosted testing environments.
+I am an IT infrastructure and systems administration professional with hands-on experience in:
+
+- Linux server administration
+- VPS management
+- cPanel/WHM hosting
+- WordPress hosting support
+- Disaster recovery
+- Website migration
+- Backup management
+- Microsoft Azure administration
+- Hosting troubleshooting
+
+This portfolio contains real-world case studies and infrastructure operations documentation based on practical server administration and cloud support activities.
+
+---
+
+# Technical Skills
+
+## Linux & Hosting
+
+- Linux Administration
+- SSH Troubleshooting
+- VPS Management
+- cPanel / WHM
+- Apache / LiteSpeed
+- PHP / MySQL
+- DNS Management
+- Website Migration
+- Backup & Recovery
+
+---
+
+## Cloud & Infrastructure
+
+- Microsoft Azure
+- Azure Virtual Machines
+- NSGs
+- Azure Backup
+- Azure Storage
+- Infrastructure Monitoring
+- Cloud Networking
+
+---
+
+# Featured Case Studies
+
+---
+
+## 1. Emergency VPS Data Recovery & Website Backup
+
+Emergency Linux VPS recovery and backup extraction before permanent server suspension.
 
 ### Key Areas
 
+- VPS recovery
 - Linux administration
+- Backup extraction
+- rsync / tar
+- Emergency recovery planning
+
+[View Case Study](./emergency-vps-data-recovery)
+
+---
+
+## 2. TestLink Server Performance Optimization
+
+Linux server investigation and cleanup planning for hosted testing environments.
+
+### Key Areas
+
+- Linux troubleshooting
 - Resource monitoring
+- Infrastructure optimization
+- Hosting management
 - Server cleanup planning
-- SSH troubleshooting
-- Hosting environment management
 
 [View Case Study](./testlink-server-performance-optimization)
 
 ---
 
-# cPanel Server Migration – Liquid Web
+## 3. cPanel Server Migration – Liquid Web
 
-Production server migration involving final synchronization, IP migration, hostname updates, and post-migration verification.
+Production migration involving IP migration, hostname updates, and migration validation.
 
 ### Key Areas
 
-- cPanel / WHM migration
-- DNS and IP management
+- cPanel migration
+- DNS management
 - Hosting infrastructure
 - Linux administration
-- Backup verification
-- Migration validation
+- Backup validation
 
 [View Case Study](./cpanel-server-migration-liquidweb)
 
 ---
 
-# cPanel Disaster Recovery & Server Rebuild
+## 4. cPanel Disaster Recovery & Server Rebuild
 
-Disaster recovery investigation involving corrupted WHM/cPanel environment, MySQL recovery attempts, and rebuild planning.
+Recovery planning for unstable WHM/cPanel and MySQL environment.
 
 ### Key Areas
 
-- Linux troubleshooting
-- MySQL recovery
+- Disaster recovery
+- MySQL troubleshooting
 - VPS rebuild planning
 - Backup strategy
-- Disaster recovery
 - Infrastructure restoration
 
 [View Case Study](./cpanel-disaster-recovery-rebuild)
 
-
 ---
 
-# WordPress Hosting Troubleshooting
+## 5. WordPress Hosting Troubleshooting
 
-Hosting-side investigation involving Elementor issues, PHP/MySQL checks, Apache validation, and WordPress troubleshooting.
+Hosting-side investigation involving Elementor issues and WordPress diagnostics.
 
 ### Key Areas
 
-- WordPress hosting support
+- WordPress hosting
 - Elementor troubleshooting
-- Linux administration
-- Apache/PHP/MySQL investigation
+- Apache/PHP/MySQL
 - Hosting diagnostics
 - Infrastructure analysis
 
 [View Case Study](./wordpress-hosting-troubleshooting)
 
-
 ---
 
-# Azure Administration Labs
+## 6. Azure Administration Labs
 
-Hands-on Azure infrastructure administration involving virtual machines, NSGs, backups, storage management, and monitoring.
+Hands-on Azure administration involving VMs, networking, storage, monitoring, and backups.
 
 ### Key Areas
 
 - Azure administration
 - Virtual machines
 - Cloud networking
-- Backup configuration
-- Storage management
+- Azure backups
 - Monitoring and diagnostics
 
 [View Case Study](./azure-administration-labs)
+
+---
+
+# Tools & Technologies
+
+| Category | Technologies |
+|---|---|
+| Operating Systems | Linux, AlmaLinux |
+| Hosting Panels | cPanel, WHM, CyberPanel |
+| Web Technologies | Apache, LiteSpeed, PHP, MySQL |
+| Cloud Platforms | Microsoft Azure |
+| Networking | DNS, IP Management, NSGs |
+| Backup Tools | rsync, tar, backup management |
+| Monitoring | System monitoring, server diagnostics |
+
+---
+
+# Career Focus
+
+Currently focused on:
+
+- System Administration
+- Cloud Support
+- Infrastructure Support
+- Hosting Operations
+- Linux Administration
+- Technical Support Engineering
+
+---
+
+# Important Note
+
+All case studies in this portfolio are sanitized to remove:
+
+- client information
+- domain names
+- IP addresses
+- credentials
+- sensitive infrastructure details
+
+---
+
+# Contact
+
+## LinkedIn
+
+www.linkedin.com/in/muhammad-bin-azhar-cloud
+
+## GitHub
+
+Add your GitHub profile link here
