@@ -9,6 +9,10 @@
 ![VPS](https://img.shields.io/badge/VPS-Management-green)
 ![SSH](https://img.shields.io/badge/SSH-Troubleshooting-black)
 
+![AZ-104](https://img.shields.io/badge/AZ--104-Azure_Administrator-blue)
+![AZ-900](https://img.shields.io/badge/AZ--900-Azure_Fundamentals-blue)
+![Azure Architect](https://img.shields.io/badge/Azure-Solutions_Architect_Expert-blueviolet)
+
 Linux • VPS • cPanel/WHM • WordPress Hosting • Azure • Infrastructure Support
 
 ---
