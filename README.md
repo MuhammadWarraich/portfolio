@@ -110,3 +110,21 @@ Disaster recovery investigation involving corrupted WHM/cPanel environment, MySQ
 - Infrastructure restoration
 
 [View Case Study](./cpanel-disaster-recovery-rebuild)
+
+
+---
+
+# WordPress Hosting Troubleshooting
+
+Hosting-side investigation involving Elementor issues, PHP/MySQL checks, Apache validation, and WordPress troubleshooting.
+
+### Key Areas
+
+- WordPress hosting support
+- Elementor troubleshooting
+- Linux administration
+- Apache/PHP/MySQL investigation
+- Hosting diagnostics
+- Infrastructure analysis
+
+[View Case Study](./wordpress-hosting-troubleshooting)
