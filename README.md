@@ -1,5 +1,13 @@
 # Muhammad Azhar  
 ## Cloud & Systems Engineer
+![Linux](https://img.shields.io/badge/Linux-Administration-blue)
+![Azure](https://img.shields.io/badge/Microsoft-Azure-blue)
+![cPanel](https://img.shields.io/badge/cPanel-WHM-orange)
+![WordPress](https://img.shields.io/badge/WordPress-Hosting-blue)
+![MySQL](https://img.shields.io/badge/MySQL-Database-orange)
+![Cloud](https://img.shields.io/badge/Cloud-Infrastructure-blue)
+![VPS](https://img.shields.io/badge/VPS-Management-green)
+![SSH](https://img.shields.io/badge/SSH-Troubleshooting-black)
 
 Linux • VPS • cPanel/WHM • WordPress Hosting • Azure • Infrastructure Support
 
