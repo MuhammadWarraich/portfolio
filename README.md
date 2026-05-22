@@ -174,13 +174,24 @@ Hands-on Azure administration involving VMs, networking, storage, monitoring, an
 ---
 # Certifications & Learning
 
-- Microsoft Azure Administration Labs
-- Linux System Administration Practice
-- Cloud Infrastructure Learning
-- VPS & Hosting Administration
-- WordPress Hosting Operations
+## Microsoft Azure Certifications
 
-> Additional certifications and training are continuously being added as part of ongoing professional development.
+- Microsoft Certified: Azure Administrator Associate (AZ-104)
+- Microsoft Certified: Azure Fundamentals (AZ-900)
+- Microsoft Certified: Azure Solutions Architect Expert
+
+---
+
+## Infrastructure & Hosting Skills
+
+- Linux System Administration
+- VPS & Hosting Administration
+- cPanel / WHM Management
+- WordPress Hosting Operations
+- Cloud Infrastructure Administration
+- Backup & Disaster Recovery Planning
+
+> Continuously expanding cloud, infrastructure, and systems administration expertise through hands-on labs and real-world operational experience.
 
 # Career Focus
 
