@@ -93,3 +93,20 @@ Production server migration involving final synchronization, IP migration, hostn
 - Migration validation
 
 [View Case Study](./cpanel-server-migration-liquidweb)
+
+---
+
+# cPanel Disaster Recovery & Server Rebuild
+
+Disaster recovery investigation involving corrupted WHM/cPanel environment, MySQL recovery attempts, and rebuild planning.
+
+### Key Areas
+
+- Linux troubleshooting
+- MySQL recovery
+- VPS rebuild planning
+- Backup strategy
+- Disaster recovery
+- Infrastructure restoration
+
+[View Case Study](./cpanel-disaster-recovery-rebuild)
