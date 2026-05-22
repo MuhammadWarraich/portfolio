@@ -76,3 +76,20 @@ Linux server performance investigation and cleanup planning for hosted testing e
 - Hosting environment management
 
 [View Case Study](./testlink-server-performance-optimization)
+
+---
+
+# cPanel Server Migration – Liquid Web
+
+Production server migration involving final synchronization, IP migration, hostname updates, and post-migration verification.
+
+### Key Areas
+
+- cPanel / WHM migration
+- DNS and IP management
+- Hosting infrastructure
+- Linux administration
+- Backup verification
+- Migration validation
+
+[View Case Study](./cpanel-server-migration-liquidweb)
