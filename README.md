@@ -172,6 +172,15 @@ Hands-on Azure administration involving VMs, networking, storage, monitoring, an
 | Monitoring | System monitoring, server diagnostics |
 
 ---
+# Certifications & Learning
+
+- Microsoft Azure Administration Labs
+- Linux System Administration Practice
+- Cloud Infrastructure Learning
+- VPS & Hosting Administration
+- WordPress Hosting Operations
+
+> Additional certifications and training are continuously being added as part of ongoing professional development.
 
 # Career Focus
 
