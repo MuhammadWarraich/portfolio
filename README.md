@@ -60,3 +60,19 @@ tar -czf /root/designcosmics_files_backup.tar.gz -C /home designcosmics.com
 
 # Download website archive safely to local system
 rsync -avzP root@VPS_IP:/root/designcosmics_files_backup.tar.gz ~/VPS_DesignCosmics/
+
+---
+
+# TestLink Server Performance Optimization
+
+Linux server performance investigation and cleanup planning for hosted testing environments.
+
+### Key Areas
+
+- Linux administration
+- Resource monitoring
+- Server cleanup planning
+- SSH troubleshooting
+- Hosting environment management
+
+[View Case Study](./testlink-server-performance-optimization)
