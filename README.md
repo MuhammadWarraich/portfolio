@@ -128,3 +128,21 @@ Hosting-side investigation involving Elementor issues, PHP/MySQL checks, Apache 
 - Infrastructure analysis
 
 [View Case Study](./wordpress-hosting-troubleshooting)
+
+
+---
+
+# Azure Administration Labs
+
+Hands-on Azure infrastructure administration involving virtual machines, NSGs, backups, storage management, and monitoring.
+
+### Key Areas
+
+- Azure administration
+- Virtual machines
+- Cloud networking
+- Backup configuration
+- Storage management
+- Monitoring and diagnostics
+
+[View Case Study](./azure-administration-labs)
